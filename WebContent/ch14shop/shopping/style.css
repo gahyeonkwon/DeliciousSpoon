@@ -1,0 +1,33 @@
+
+.card-columns{
+    column-count: 4;
+}
+
+
+.fa-plus{
+	font-size:1.5rem;
+	color:grey;
+}
+
+a{
+	color:black;
+}
+.fa-question-circle{
+	font-size:2.0rem;	
+	color:tomato;	
+}
+
+.fa-comment{
+	font-size:2.0rem;		
+}
+
+.starR{
+  background: url('http://miuu227.godohosting.com/images/icon/ico_review.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.starR.on{background-position:0 0;}

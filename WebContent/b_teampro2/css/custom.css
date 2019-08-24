@@ -1,0 +1,630 @@
+/*search_done에서쓰는 스타일*/
+.customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+.customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+.customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #d95050;background: #d95050 url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+.customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+.customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+
+
+/*소연 커스텀 */
+.area1{
+
+	display:inline-block;
+
+	width: 12.5rem;
+
+    height: 10rem;
+
+}
+
+ 
+.area3{
+   background-color: #5D5D5D;
+   display:inline-block;
+   width: 14.7rem;
+    height: 12.9rem;
+    opacity: 0.8;
+    border-radius:5px;
+    color: white;
+}
+
+.area2{
+
+	display:inline-block;
+
+	width: 14.7rem;
+
+    height: 8rem;
+
+}
+
+.title_main{
+            overflow: hidden; 
+        	text-overflow: ellipsis;
+        	white-space: nowrap; 
+        	width: 14.7rem;
+			text-align: left;
+} 
+
+.subtitle{
+
+	font-size: 1.2rem;
+
+}
+/*리뷰부분에서 쓰는 두가지 함수*/
+span.more {
+		cursor:pointer;
+		}
+      	
+	.imgarea{
+		  display:none;
+		  }
+
+.heartR{
+  background: url('/bban/b_teampro2/img/star.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.heartR.on{background-position:0 0;}
+
+
+
+/*가현커스텀*/
+.starR{
+  background: url('/bban/b_teampro2/img/star.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.starRe{
+  background: url('/bban/b_teampro2/img/star.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.starR.on{background-position:0 0;}
+.starRe.on{background-position:0 0;}
+
+.fa-heart{
+ color: #ffffff;   
+}
+
+.realheart{
+  color: black;
+}
+
+.photo_main {
+   position: relative;}
+.photo_main_up{ 
+   position: absolute;
+   left: 0; 
+   bottom: 0;
+   font-size: 1.3em;
+   font-color: #DE3131; 
+   width: 14.7rem;
+   height: 10rem;
+   font-weight: bold;
+   opacity: 1; 
+   filter: alpha(opacity=0);
+}
+
+
+textarea#review{
+    height: 200px;
+    border: 1px solid;
+    border-color: #D5D5D5;
+    resize: none;
+}
+
+
+.review-align
+{
+   padding-top:50px;
+   text-align:left;
+}
+
+
+.review-align2
+{
+   padding-top:10px;
+   padding-bottom:40px;
+   text-align:left;
+}
+ 
+.img
+{
+   height: 34rem;
+   min-width: 100%;
+}
+
+
+.waiting
+{
+   padding-bottom:40px;
+}
+
+
+.user_photo input[type=file]{
+
+    opacity: 0;
+    outline: none;
+    background: white;
+
+}
+
+
+/*규리 커스텀*/
+#card_size_gr{
+	width:50%;
+	height:50%;
+}
+
+#card_img_gr{
+      opacity: 0.2;
+      filter: alpha(opacity=20);
+    /*   height: 50%; */
+      
+      }
+      
+.margin_gr{
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+        
+.c_text{
+          font-size:1.2rem;
+      }
+
+      
+.number_sy{
+          font-size:5.0rem;
+      }    
+      
+.btn-depoon{
+       		 background-color:#fc5f4a;
+       		 border-color:#fc5f4a;
+       		 color:#ffffff;
+       }
+        
+.btn-outline-dark{
+       		 background-color:#ffffff;
+       		 border-color:#fc5f4a;
+       		 color:#fc5f4a;
+       }  
+
+.btn-outline-dark.disabled, .btn-outline-dark:disabled {
+  color: #fc5f4a;
+  background-color: transparent;
+}     
+
+.btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #fc5f4a;
+  border-color: #fc5f4a;
+}   
+       
+.btn-dp-p{
+       		 border-color:#fc5f4a;
+       		 color:#fc5f4a;
+       } 
+       
+.btn-dp-p2{
+       		 border-radius: 5px 5px 5px 5px;
+       		 background-color:#fc5f4a;
+       		 border-color:#fc5f4a;
+       		 color:#ffffff;
+       } 
+       
+.page-link:hover {
+  z-index: 2;
+  color: #fc5f4a;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.page-link:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+       
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fc5f4a;
+}       
+
+/* .search_d_img{
+	background-image: url("/bban/b_teampro2/img/main_img2.jpg");
+    height:32rem;
+    width:100%;
+}
+ */
+
+.btn:hover {
+  z-index: 2;
+  color: #fc5f4a;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+} 
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+ 
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+} 
+ 
+/*끝*/
+
+
+.user_photo input[type=file]{
+
+    opacity: 0;
+    outline: none;
+    background: white;
+
+}
+
+
+@media (min-width: 350px) {
+  .img{
+    width:50%;
+  }
+}
+
+
+/*////////////////////Carousel css////////////////////*/
+
+   @charset "EUC-KR";
+body {
+  padding-top:0;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+
+   @charset "EUC-KR";
+body {
+  padding-top:0;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 42rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 82rem;
+}
+
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  align-items: center;
+  width: 100%;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+  @include transition($carousel-transition);
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  transform: translateX(0);
+
+  @supports (transform-style: preserve-3d) {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.carousel-item-next,
+.active.carousel-item-right {
+  transform: translateX(100%);
+
+  @supports (transform-style: preserve-3d) {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.carousel-item-prev,
+.active.carousel-item-left {
+  transform: translateX(-100%);
+
+  @supports (transform-style: preserve-3d) {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+
+//
+// Alternate transitions
+//
+
+.carousel-fade {
+  .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+  }
+
+  .carousel-item.active,
+  .carousel-item-next.carousel-item-left,
+  .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+  }
+
+  .active.carousel-item-left,
+  .active.carousel-item-right {
+    opacity: 0;
+  }
+
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active,
+  .active.carousel-item-left,
+  .active.carousel-item-prev {
+    transform: translateX(0);
+
+    @supports (transform-style: preserve-3d) {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+
+//
+// Left/right controls for nav
+//
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  // Use flex for alignment (1-3)
+  display: flex; // 1. allow flex styles
+  align-items: center; // 2. vertically center contents
+  justify-content: center; // 3. horizontally center contents
+  width: $carousel-control-width;
+  color: $carousel-control-color;
+  text-align: center;
+  opacity: $carousel-control-opacity;
+  // We can't have a transition here because WebKit cancels the carousel
+  // animation if you trip this while in the middle of another animation.
+
+  // Hover/focus state
+  @include hover-focus {
+    color: $carousel-control-color;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+}
+.carousel-control-prev {
+  left: 0;
+  @if $enable-gradients {
+    background: linear-gradient(90deg, rgba($black, .25), rgba($black, .001));
+  }
+}
+.carousel-control-next {
+  right: 0;
+  @if $enable-gradients {
+    background: linear-gradient(270deg, rgba($black, .25), rgba($black, .001));
+  }
+}
+
+// Icons for within
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: $carousel-control-icon-width;
+  height: $carousel-control-icon-width;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.carousel-control-prev-icon {
+  background-image: $carousel-control-prev-icon-bg;
+}
+.carousel-control-next-icon {
+  background-image: $carousel-control-next-icon-bg;
+}
+
+
+// Optional indicator pips
+//
+// Add an ordered list with the following class and add a list item for each
+// slide your carousel holds.
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0; // override <ol> default
+  // Use the .carousel-control's width as margin so we don't overlay those
+  margin-right: $carousel-control-width;
+  margin-left: $carousel-control-width;
+  list-style: none;
+
+  li {
+    position: relative;
+    flex: 0 1 auto;
+    width: $carousel-indicator-width;
+    height: $carousel-indicator-height;
+    margin-right: $carousel-indicator-spacer;
+    margin-left: $carousel-indicator-spacer;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba($carousel-indicator-active-bg, .5);
+
+    // Use pseudo classes to increase the hit area by 10px on top and bottom.
+    &::before {
+      position: absolute;
+      top: -10px;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 10px;
+      content: "";
+    }
+    &::after {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      height: 10px;
+      content: "";
+    }
+  }
+
+  .active {
+    background-color: $carousel-indicator-active-bg;
+  }
+}
+
+
+// Optional captions
+//
+//
+
+.carousel-caption {
+  position: absolute;
+  right: ((100% - $carousel-caption-width) / 2);
+  bottom: 20px;
+  left: ((100% - $carousel-caption-width) / 2);
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: $carousel-caption-color;
+  text-align: center;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+
+
+

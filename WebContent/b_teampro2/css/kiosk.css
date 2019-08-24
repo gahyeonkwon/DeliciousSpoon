@@ -1,0 +1,35 @@
+	.o_font_gr{
+	   padding-top:35px;
+	   font-size:10.0rem;
+	}
+	
+	.back{
+	    background-image: url("../../img/main_img5.jpg");
+	    height: 775px;
+	}
+ 
+	#tablet-btn{
+	   background-color: #FC5F4A;
+	   border-color: #FC5F4A;
+	   color:#FFFFFF;
+	   font-size:4.0rem;	
+	   height:30rem;	  
+     }  
+     #tablet-join{
+       background-color: #FC5F4A;
+       border-color: #FFFFFF;
+	   color:#FFFFFF;
+     } 
+     
+     #ck_gender{
+     color:#FFFFFF;
+     height:34px;
+     }
+     
+     .row{
+     height:600px;
+     }
+     
+     body{
+     padding-bottom:0;
+     }	  

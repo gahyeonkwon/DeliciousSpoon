@@ -1,0 +1,22 @@
+<Resource name="jdbc/bban"
+           auth="Container"
+           type="javax.sql.DataSource"
+           driverClassName="com.mysql.jdbc.Driver" 
+           username="bban"
+           password="1234"
+           url="jdbc:mysql://localhost:3306/bban"
+           maxWait="5000"       
+ />
+
+
+<Context path="/StudyBasicJSP"  docBase="c:\apache-tomcat-8.0.26\webapps\StudyBasicJSP">
+  <Resource name="jdbc/bban"
+           auth="Container"
+           type="javax.sql.DataSource"
+           driverClassName="com.mysql.jdbc.Driver" 
+           username="bban"
+           password="1234"
+           url="jdbc:mysql://localhost:3306/bban"
+           maxWait="5000"       
+   />
+</Context>
